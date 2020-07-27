@@ -1,0 +1,107 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+ 
+  border-radius: 0;
+  border: 0;
+}
+#header-nav h1{
+  color: black;
+  text-align: center;
+}
+.navbar-header{
+    background-color : grey;
+} 
+
+.navbar-brand {
+  
+  padding-top: 25px;
+  
+ 
+}
+
+.navbar-brand h1 {
+  
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration : none;
+  
+  
+}
+
+
+#nav-list {
+  margin-top: 10px;
+  background-color : white;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+#first,#second,#third{ 
+                   background-color:purple;  
+                                                   
+                   font-color: black;
+                   border: 1px solid black;                    
+                   margin-top: 5px;                  
+    
+}
+
+#main-content h1 {
+
+text-align : center;
+
+}
+
+#main-content p {
+		   font-family : "Arial";  
+                   padding-left : 5px;
+                   padding-right : 5px;
+		   padding-top: 5px;
+		   padding-bottom: 5px;
+                    
+}
+h3{
+
+    font-family : "Courier New";  
+     font-size: 20px;
+     color:black;
+     text-align:right;
+}
+h3 span{
+    font-family : "Verdana";  
+    background-color:red;
+     border: 1px solid black;
+}
+   
